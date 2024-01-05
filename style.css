@@ -1,0 +1,151 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Nunito' , 'sans serif';
+    transition: 3s;
+   
+}
+
+
+.header{
+    height: 35px;
+    padding: 1.5rem 4%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    
+}
+
+.main{
+    font-size: 1.5rem;
+    /* font-weight: 600px; */
+    color: #001133;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.main h3{
+    color: rgb(65, 233, 211);
+    font-size: medium;
+}
+
+.header .navber a{
+    /* margin-right: 3rem; */
+    margin-left: 3rem;
+    /* padding: .3rem 1.5rem; */
+   font-weight: 3;
+    color: #000;
+    border-radius: .5rem;
+    justify-content: space-between;
+    font-style: bold;
+    /* margin: 35px; */
+    /* margin-top: 0% auto; */
+}
+
+.header .navber a:hover,
+header .navber a.active{
+
+    background-color: #001133;
+    color: #fff;
+
+}
+header .fa-solid{
+    display:none;  
+    /* visibility: hidden; */
+    color: blue;
+    font-size: 1.5rem;
+}
+.btn .bt{
+    width: 180PX;
+    height: 30PX;
+    background-color: #2ae4eb;
+    border-radius: 10px 10px 10px 10px;
+    color: #f8f7fc;
+    margin: 8PX;
+    border: 2px solid rgb(45, 243, 233);
+
+}
+
+
+.home{
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(https://www.financialmirror.com/wp-content/uploads/2022/11/183693-doctor-11.webp);
+    display: flex;
+    align-items: center;
+    height: 85vh;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+
+
+} 
+.img{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* display: flex; */
+    /* align-items: center; */
+}
+.img h1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    color: rgb(252, 255, 255);
+    /* align-items: center; */
+    
+}
+.img p{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    color: rgb(240, 248, 248);
+}
+.img .bt1 , .bt2{
+    display: inline block;
+    width: 180PX;
+    height: 30PX;
+    background-color: #f1f6f7;
+    border-radius: 10px 10px 10px 10px;
+    color: #1f1f20;
+    margin: 8PX;
+    border: 2px solid rgb(247, 250, 250);
+}
+
+.our{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.our p{
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.our-col{
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.our-col img{
+    width: 60px;
+}
